@@ -5,6 +5,9 @@ This Vagrantfile allows building a Kubernetes cluster with a configurable number
 
 If you are building behind proxies and require proxy configurations inside the VMs, install the **vagrant-proxyconf** plugin with `vagrant plugin install vagrant-proxyconf`.
 
+Install vagrant hostmanager with
+`vagrant plugin install vagrant-hostmanager`
+
 The following environment variables can be configured to control the disposition of the cluster:
 
 Proxy variables
